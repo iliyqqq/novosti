@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: orange; /* Изменяем цвет фона на оранжевый */
+    color: deepskyblue; /* Изменяем цвет текста на голубой */
 }
 
 header {
-    background: orange;
-    color: blue;
+    background: #333;
+    color: #fff;
     padding: 10px 0;
 }
 
@@ -36,13 +38,11 @@ nav ul li a {
 
 main {
     padding: 20px;
-    width: 300px;
-    height: 300px;
 }
 
 footer {
-    background: orange;
-    color: blue;
+    background: #333;
+    color: white;
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -53,4 +53,12 @@ footer {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Стили для галереи */
+.gallery img {
+    max-width: 300px; /* Максимальная ширина изображения */
+    max-height: 200px; /* Максимальная высота изображения */
+    margin: 5px; /* Отступ между изображениями */
+    object-fit: cover; /* Подгонка изображений по размеру */
 }
