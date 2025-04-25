@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: orange;
+    color: blue;
     padding: 10px 0;
 }
 
@@ -39,8 +39,8 @@ main {
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: orange;
+    color: blue;
     text-align: center;
     padding: 10px 0;
     position: relative;
